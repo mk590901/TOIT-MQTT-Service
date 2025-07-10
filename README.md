@@ -11,10 +11,12 @@ Toit has two built-in modules that provide control of the PGB LED and data excha
 ## Brief description of the application
 
 1) When the application starts, an mqtt client is created, a connection to the broker is started, and a subscription to the topic is performed. This step is accompanied by a small visual effect: upon successful connection and subscription, the LED turns green.
+   
 2) Control commands are transmitted by subscription in the form of json strings. There are only two of them:
-* color change: _{"color":{"r":255,"g":152,"b":0}}_
-* application end: _{"cmd":"stop"}_
-Upon receiving the commands are executed. The color change is accompanied by a flashing of the LED of the received palette. Exiting the application is accompanied by an exit from the message receiving cycle and a five-fold flashing. Any command is accompanied by a kind of confirmation or acknowledge: sending the received command to the sender.
+   * color change: _{"color":{"r":255,"g":152,"b":0}}_
+   * application end: _{"cmd":"stop"}_
+
+3) Upon receiving the commands are executed. The color change is accompanied by a flashing of the LED of the received palette. Exiting the application is accompanied by an exit from  the message receiving cycle and a five-fold flashing. Any command is accompanied by a kind of confirmation or acknowledge: sending the received command to the sender.
 
 ## Application management
 
