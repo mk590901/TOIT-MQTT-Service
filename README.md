@@ -116,7 +116,12 @@ DEBUG: closing connection {reason: null}
 
 Below are two movies:
 
-1) Flutter application via that changes colors on the board. Everything is very simple there: you need to press the __Start__ button and after a successful connection to the broker (two green icons - a sign of a successful connection and subscription) you can select a color for the RGB LED. With a slight delay, the color of the ring at the bottom of the screen changes. The reason for the delay: the reverse passage of the command from the ESP32-S3 to the application. You can also interrupt the application on the __ESP32-S3__ by pressing the __Stop ESP32-S3__ button. If you want to continue your exercises, then load the application onto the chip using the __jag__ command _jag run mqtt_rgb_led.toit_.
+1) Flutter application via that changes colors on the board. Everything is very simple there: you need to press the __Start__ button and after a successful connection to the broker (two green icons - a sign of a successful connection and subscription) you can select a color for the RGB LED. With a slight delay, the color of the ring at the bottom of the screen changes. The reason for the delay: the reverse passage of the command from the __ESP32-S3__ to the application. You can also interrupt the application on the __ESP32-S3__ by pressing the __Stop ESP32-S3__ button. If you want to continue your exercises, then load the application onto the chip using the __jag__ command _jag run mqtt_rgb_led.toit_.
 
+https://github.com/user-attachments/assets/4559b9af-ec89-4bbf-8b95-255b95aef499
    
-3) Live lideo of the  reflection of interaction application 1) with the __ESP32-S3-WROOM__ board.
+2) Live lideo of the  reflection of interaction application 1) with the __ESP32-S3-WROOM__ board.
+
+https://github.com/user-attachments/assets/874f177d-639b-47c0-863a-75cada83db1d
+
+
