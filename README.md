@@ -22,12 +22,12 @@ Toit has two built-in modules that provide control of the PGB LED and data excha
 
 > Installing packages:
 
-__mqtt__
+* __mqtt__
 ```
 micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/mqtt@v2
 Info: Package 'github.com/toitware/mqtt@2.13.1' installed with name 'mqtt'
 ```
-__pixel_strip__
+* __pixel_strip__
 ```
 micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/toit-pixel-strip@v0.3
 Info: Package 'github.com/toitware/toit-pixel-strip@0.3.0' installed with name 'pixel_strip'
@@ -116,6 +116,7 @@ DEBUG: closing connection {reason: null}
 
 Below are two movies:
 
-1) Flutter application via that changes colors on the board. Everything is very simple there: you need to press the __Start__ button and after a successful connection to the broker (two green icons - a sign of a successful connection and subscription) you can select a color for the RGB LED. With a slight delay, the color of the ring at the bottom of the screen changes. The reason for the delay: the reverse passage of the command from the ESP32-S3 to the application. You can also interrupt the application on the ESP32-S3 by pressing the Stop ESP32-S3 button. If you want to continue your exercises, then load the application onto the chip using the __jag__ command _jag run mqtt_rgb_led.toit_.
+1) Flutter application via that changes colors on the board. Everything is very simple there: you need to press the __Start__ button and after a successful connection to the broker (two green icons - a sign of a successful connection and subscription) you can select a color for the RGB LED. With a slight delay, the color of the ring at the bottom of the screen changes. The reason for the delay: the reverse passage of the command from the ESP32-S3 to the application. You can also interrupt the application on the __ESP32-S3__ by pressing the __Stop ESP32-S3__ button. If you want to continue your exercises, then load the application onto the chip using the __jag__ command _jag run mqtt_rgb_led.toit_.
+
    
-2) Live lideo of the  reflection of interaction application 1) with the __ESP32-S3-WROOM__ board.
+3) Live lideo of the  reflection of interaction application 1) with the __ESP32-S3-WROOM__ board.
