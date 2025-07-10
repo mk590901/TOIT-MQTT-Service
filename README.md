@@ -22,11 +22,12 @@ Toit has two built-in modules that provide control of the PGB LED and data excha
 
 > Installing packages:
 
+__mqtt__
 ```
 micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/mqtt@v2
 Info: Package 'github.com/toitware/mqtt@2.13.1' installed with name 'mqtt'
 ```
-
+__pixel_strip__
 ```
 micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/toit-pixel-strip@v0.3
 Info: Package 'github.com/toitware/toit-pixel-strip@0.3.0' installed with name 'pixel_strip'
