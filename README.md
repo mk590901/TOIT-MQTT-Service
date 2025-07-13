@@ -111,7 +111,7 @@ Disconnected from MQTT broker broker.hivemq.com
 DEBUG: closing connection {reason: null}
 [jaguar] INFO: program c5daa302-44e4-ee62-8364-5717f5512150 stopped
 ```
-> To interact with the Toit app running on __ESP32-S3__, a __Flutter__ app for __Android__ was written. Its source code and description can be found in the repository https://github.com/mk590901/ESP32-Control-Panel, and the method using is described below in the __Movies__ section.
+> To interact with the described __Toit__ app running on __ESP32-S3__, a __Flutter__ app for __Android__ was written. Its source code and description can be found in the repository https://github.com/mk590901/ESP32-Control-Panel, and the method using is described below in the __Movies__ section.
 
 ## Movies
 
