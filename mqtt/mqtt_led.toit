@@ -61,8 +61,6 @@ connect host/string client_id/string -> any : //mqtt.Client :
 
 main :
 
-
-  //connectAndSubscribe  
   client = connect HOST CLIENT-ID
   if client == null :
     print "======= App exit because fatal error ======="
@@ -76,13 +74,6 @@ main :
   client.close
   print "Disconnected from MQTT broker $HOST"
   blink 5 0 204 0
-
-// connectAndSubscribe :
-  
-//   client = connect HOST CLIENT-ID
-//   if client == null :
-//     print "======= App exit because fatal error ======="
-//     exit 0
 
 processing topic/string payload/ByteArray -> none :
 
