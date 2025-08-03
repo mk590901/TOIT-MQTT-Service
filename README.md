@@ -125,4 +125,9 @@ https://github.com/user-attachments/assets/4559b9af-ec89-4bbf-8b95-255b95aef499
 
 https://github.com/user-attachments/assets/874f177d-639b-47c0-863a-75cada83db1d
 
+## Updates
+
+An updated version of the application has been added to the repository - __mqtt_led.toit__. It uses an interesting TOIT option of the MQTT client, allowing you to describe actions when losing and restoring a connection during a session. I checked that when turning off/on the router, the application restores the connection with the broker and continues to work.
+
+
 
